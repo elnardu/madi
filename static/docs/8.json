@@ -8,7 +8,7 @@
 		{
 			"input": ["R1", "R2", "l"],
 			"formula": "$$S_1 = {l*(R_1+R_2)}$$",
-			"js": "function(obj){return l*(obj.R1+obj.R2);}"
+			"js": "function(obj){return obj.l*(obj.R1+obj.R2);}"
 		},
 		{
 			"input": ["R", "l"],
@@ -18,7 +18,7 @@
 		{
 			"input": ["R", "H"],
 			"formula": "$$V = {1/3*\\pi*R^2*H}$$",
-			"js": "function(obj){return 1/3*Math.PI*obj.R*onj.R*obj.H;}"
+			"js": "function(obj){return 1/3*Math.PI*obj.R*obj.R*obj.H;}"
 		},
 		{
 			"input": ["A"],
